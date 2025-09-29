@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    padding: 5.35rem 0 0 0;
+    margin: 0;
+    min-height: 100vh;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ADEE;
+    border-radius: 10px;
+    border: 2px solid skyblue;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00aeeece;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px 100px;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#logo9 {
+    margin-left: -20rem;
+    width: 7rem ;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 3px ;
+    background: #00ADEE;
+    transition: .3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.subs-on {
+    border-bottom: 3.5px solid #00ADEE;
+}
+
+.register-section {
+    height: 60rem;
+    background-image: url("../Assets/subswallpaper.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register-select {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+
+}
+
+.select-content {
+    padding: 10px 14px 10px 14px;
+    background-color: #001bb5cc;
+    color: white;
+    border-radius: 18px;
+}
+
+#viewer-on {
+    background-color: #0B0F4E;
+    text-decoration: none;
+}
+
+#creator-on {
+    background-color: #0B0F4E;
+    text-decoration: none;
+}
+
+.register-container {
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    display: flex;
+    background-color: #2a2a2a;
+    margin-top: 2rem;
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+.image {
+    width: 500px;
+}
+
+.input-title-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.input-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.input-form input, .input-form-dob input {
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #c0c0c0;
+    accent-color: black;
+}
+
+.input-form-dob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.agree-form {
+    margin-top: 1rem;
+}
+
+.submit-button-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.submit-button {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: darkorange;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+}
+
+.error-message {
+    color: red;
+    /* font-size: 400px; */
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: 4rem
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 16px;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}
+
+.footer-bottom p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.footer-icons img {
+    transition: filter 0.3s;
+}
+
+.footer-icons img:hover {
+    filter: brightness(0.6);
+}
