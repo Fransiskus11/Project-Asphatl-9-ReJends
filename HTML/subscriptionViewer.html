@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asphatl 9: ReJends</title>
+    <link rel="stylesheet" href="../CSS/subscriptionViewer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script defer src="../js/subscriptionViewer.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="../HTML/home.html">
+            <img id="logo9" src="../Assets/newLogoAsphatl.png" alt="">
+        </a>
+        <nav class="navbar">
+            <a href="../HTML/home.html" class="home-on">Home</a>
+            <a href="../HTML/gallery.html">Gallery</a>
+            <a href="../HTML/news.html">News</a>
+            <a href="../HTML/esport.html">Esport</a>
+            <a href="../HTML/subscriptionViewer.html" class="subs-on">Subscription</a>
+        </nav>
+    </header>
+
+    <section class="register-section">
+        <section class="register-section">
+        <div class="register-select">
+            <a href="../HTML/subscriptionViewer.html">
+                <p class="select-content" id="viewer-on">Viewer</p>
+            </a>
+            <a href="../HTML/subscriptionCreator.html">
+                <p class="select-content">Creator</p>
+            </a>
+        </div>
+        <div class="register-container">
+            <div class="image-container">
+                <img src="../Assets/subsBackground.jpg" alt="" class="image">
+            </div>
+
+            <div class="inner-container">
+                <div class="input-title-container">
+                    <p>Join Our Community!</p>
+                </div>
+    
+                <div class="input-content-container">
+                    <form action="" class="form" id="formSubs" method="GET"> 
+                        <div class="input-form">
+                            <label for="name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Enter your first name here">
+                            <p class="error-message" id="error-first-name"></p>
+                        </div>
+                        <div class="input-form">
+                            <label for="name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your last name here">
+                            <p class="error-message" id="error-last-name"></p>
+                        </div>
+                        <div class="input-form">
+                            <label for="name">Email</label>
+                            <input type="email" name="name" id="email" placeholder="Enter your email here">
+                            <p class="error-message" id="error-email"></p>
+                        </div>
+                        <div class="input-form-dob">
+                            <input type="date" name="name" id="date">
+                            <p class="error-message" id="error-dob"></p>
+                            <div>
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                            </div>
+        
+                            <div>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                            </div>
+                            <p class="error-message" id="error-gender"></p>
+                        </div>
+                        <div class="agree-form">
+                            <input type="checkbox" id="agree">
+                            <label for="">I agree to the Gameloft Terms and Conditions and I have read the Privacy Policy.</label>
+                            <p class="error-message" id="error-agree"></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="submit-button-container">
+                    <button onclick="validate()" class="submit-button">
+                        <div>
+                            Submit
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+        </div>        
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-icons">
+                <img src="../Assets/discord-white.27809a1d.png" alt="Discord">
+                <img src="../Assets/facebook-white.c04e916c.png" alt="Facebook">
+                <img src="../Assets/instagram-white.61683607.png" alt="Instagram">
+                <img src="../Assets/twitter-white.748d7450.png" alt="Twitter">
+                <img src="../Assets/youtube-white.45ed1563.png" alt="YouTube">
+                <img src="../Assets/tiktok-white.99222c28.png" alt="TikTok">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Gamefolt</p>
+        </div>
+    </footer>
+
+</body>
+</html>
