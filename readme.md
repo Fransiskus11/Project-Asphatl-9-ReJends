@@ -50,6 +50,7 @@ This project is more than just a landing page; it's a feature-rich website that 
     ├── esport.js
     ├── subscriptionViewer.js
     └── subscriptionCreator.js
+```
 
 ## 📈 What I Learned
 - **Responsive Development** → Creating websites that function optimally on both desktop and mobile devices.  
