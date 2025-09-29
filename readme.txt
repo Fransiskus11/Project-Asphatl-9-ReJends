@@ -5,25 +5,17 @@ Asphalt 9: ReJends is a multi-page front-end website project created as a tribut
 
 ✨ Key Features
 This project is more than just a landing page; it's a feature-rich website that includes:
-
-Home Page (home.html): An engaging entry point with an automated image carousel and detailed sections covering game modes, features, and objectives.
-
-Car Gallery (gallery.html): An interactive gallery where users can browse vehicles, dynamically filtered by class (S, A, B, etc.). Car data is loaded and displayed using JavaScript.
-
-News Page (news.html): A section for game updates, featuring a "Load More" button to dynamically reveal older news articles.
-
-Esports Hub (esport.html): A dedicated page for the competitive scene, complete with a video trailer, statistics, and information on regional and world stages.
-
-Subscription Forms (subscriptionViewer.html & subscriptionCreator.html): Two distinct, validated forms for viewers and content creators to subscribe, demonstrating robust form handling and user input validation with JavaScript.
+= Home Page (home.html): An engaging entry point with an automated image carousel and detailed sections covering game modes, features, and objectives.
+= Car Gallery (gallery.html): An interactive gallery where users can browse vehicles, dynamically filtered by class (S, A, B, etc.). Car data is loaded and displayed using JavaScript.
+= News Page (news.html): A section for game updates, featuring a "Load More" button to dynamically reveal older news articles.
+= Esports Hub (esport.html): A dedicated page for the competitive scene, complete with a video trailer, statistics, and information on regional and world stages.
+= Subscription Forms (subscriptionViewer.html & subscriptionCreator.html): Two distinct, validated forms for viewers and content creators to subscribe, demonstrating robust form handling and user input validation with JavaScript.
 
 🛠️ Technology Stack
 This project was built using the following technologies:
-
-HTML5
-
-CSS3 (including modern techniques like Flexbox and Grid)
-
-JavaScript (for DOM manipulation, dynamic content loading, and form validation)
+= HTML5
+= CSS3
+= JavaScript
 
 📂 Project Structure
 The repository is organized into separate folders for assets, CSS, HTML, and JavaScript files, promoting a clean and maintainable codebase.
@@ -54,12 +46,9 @@ The repository is organized into separate folders for assets, CSS, HTML, and Jav
 
 📈 What I Learned
 This project enhanced my skills in:
-
-Responsive Development: Creating websites that function optimally on both desktop and mobile devices.
-
-Interactive Interfaces: Building animations and effects with CSS and JavaScript to create a more engaging user experience.
-
-Form Validation: Ensuring accurate user input through client-side JavaScript validation.
+- Responsive Development: Creating websites that function optimally on both desktop and mobile devices.
+- Interactive Interfaces: Building animations and effects with CSS and JavaScript to create a more engaging user experience.
+- Form Validation: Ensuring accurate user input through client-side JavaScript validation.
 
 📎 License
 This project is for academic purposes only. No commercial use permitted.
